@@ -131,7 +131,7 @@ Set-MpPreference -DisableRealtimeMonitoring $true | Out-Null
 
 # -- Import module from Powershell Gallery
 Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force  | Out-Null
-Install-Module -Name Outsystems.SetupTools -Force | Out-Null
+Install-Module -Name Outsystems.SetupTools -RequiredVersion 2.1.0.0 -Force | Out-Null
 Import-Module -Name Outsystems.SetupTools -ArgumentList $true, 'AzureRM' | Out-Null
 
 # -- Start logging
