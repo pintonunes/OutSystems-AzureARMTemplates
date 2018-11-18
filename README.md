@@ -1,4 +1,4 @@
-# OutSystems Azure ARM templates
+# OBSOLETE — OutSystems Azure ARM templates
 
 This repo was moved to:
 https://github.com/OutSystems/AzureARMTemplates
